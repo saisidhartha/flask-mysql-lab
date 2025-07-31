@@ -4,7 +4,7 @@ metadata:
   name: flask-api
   namespace: gsm-lab
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: flask-api
