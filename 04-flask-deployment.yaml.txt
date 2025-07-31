@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: flask-api
+        env: test
     spec:
       containers:
         - name: flask-api
